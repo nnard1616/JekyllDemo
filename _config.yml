@@ -1,0 +1,23 @@
+# Site settings
+title: Jekyll Demo
+email: nnard1616@gmail.com
+description: >- 
+    This is a demo of Jekyll and Github Pages.
+baseurl: "/JekyllDemo" # the subpath of your site, e.g. /blog
+url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: nnard1616 
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
